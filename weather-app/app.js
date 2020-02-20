@@ -16,7 +16,7 @@ request({ url: url2, json: true}, (error, response) => {
         // console.log(data)
         console.log('The latitude is ' + latitude + ' and langitude is ' + longitude)
         
-    }
+    } 
 })
 
 const url = 'https://api.darksky.net/forecast/99af5e7654f4c9066993bb0636d37403/'+ latitude + ',' + longitude
